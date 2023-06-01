@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+
+<listeners>
+  <listener class-name="utilities.ListenerUtil"/>
+</listeners>
+
+  <test name="AP006_ApplicationLoginTests">
+    <classes>
+      <class name="testngConcepts.AP006_ApplicationLoginTests"/>      
+    </classes>
+  </test>
+      
+  <test name="AP004_Application">
+    <classes>
+      <class name="testngConcepts.AP004_Application"/>      
+    </classes>
+  </test>
+      
+    </suite> <!-- Suite --> 
+   
+    
+    
+ 
+      
+      
+  
+  
+  
+ 
+
